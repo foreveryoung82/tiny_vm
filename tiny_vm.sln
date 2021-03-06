@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tiny_console", "tiny_console\tiny_console.vcxproj", "{A71578BE-9D37-4163-A138-F263EEBFC68B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{523FD469-562E-4D62-857F-B198BA33E506} = {523FD469-562E-4D62-857F-B198BA33E506}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tiny", "tiny\tiny.vcxproj", "{523FD469-562E-4D62-857F-B198BA33E506}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7} = {C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "windy", "windy\windy.vcxproj", "{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10A44733-B075-43E0-AA30-7BF9B47E4416}"
+	ProjectSection(SolutionItems) = preProject
+		roadmap.txt = roadmap.txt
+	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "python_tiny", "python_tiny\python_tiny.pyproj", "{5717AECA-277D-4454-B2ED-D89F02654216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Debug|x64.ActiveCfg = Debug|x64
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Debug|x64.Build.0 = Debug|x64
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Debug|x86.Build.0 = Debug|Win32
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Release|x64.ActiveCfg = Release|x64
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Release|x64.Build.0 = Release|x64
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Release|x86.ActiveCfg = Release|Win32
+		{A71578BE-9D37-4163-A138-F263EEBFC68B}.Release|x86.Build.0 = Release|Win32
+		{523FD469-562E-4D62-857F-B198BA33E506}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{523FD469-562E-4D62-857F-B198BA33E506}.Debug|x64.ActiveCfg = Debug|x64
+		{523FD469-562E-4D62-857F-B198BA33E506}.Debug|x64.Build.0 = Debug|x64
+		{523FD469-562E-4D62-857F-B198BA33E506}.Debug|x86.ActiveCfg = Debug|Win32
+		{523FD469-562E-4D62-857F-B198BA33E506}.Debug|x86.Build.0 = Debug|Win32
+		{523FD469-562E-4D62-857F-B198BA33E506}.Release|Any CPU.ActiveCfg = Release|Win32
+		{523FD469-562E-4D62-857F-B198BA33E506}.Release|x64.ActiveCfg = Release|x64
+		{523FD469-562E-4D62-857F-B198BA33E506}.Release|x64.Build.0 = Release|x64
+		{523FD469-562E-4D62-857F-B198BA33E506}.Release|x86.ActiveCfg = Release|Win32
+		{523FD469-562E-4D62-857F-B198BA33E506}.Release|x86.Build.0 = Release|Win32
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Debug|x64.ActiveCfg = Debug|x64
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Debug|x64.Build.0 = Debug|x64
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Debug|x86.Build.0 = Debug|Win32
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Release|x64.ActiveCfg = Release|x64
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Release|x64.Build.0 = Release|x64
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Release|x86.ActiveCfg = Release|Win32
+		{C7F915FE-F37A-475C-9A1F-FFAFF0AC39F7}.Release|x86.Build.0 = Release|Win32
+		{5717AECA-277D-4454-B2ED-D89F02654216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5717AECA-277D-4454-B2ED-D89F02654216}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5717AECA-277D-4454-B2ED-D89F02654216}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5717AECA-277D-4454-B2ED-D89F02654216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5717AECA-277D-4454-B2ED-D89F02654216}.Release|x64.ActiveCfg = Release|Any CPU
+		{5717AECA-277D-4454-B2ED-D89F02654216}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ACA295D-F695-4CA9-A734-AFFAE62AF802}
+	EndGlobalSection
+EndGlobal

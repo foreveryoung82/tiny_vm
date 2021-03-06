@@ -1,32 +1,23 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+/.vs/software_renderer/v16
+/viewer/Debug
+/viewer/Release
+/viewer/x64/Debug
+/viewer/x64/Release
+/x64/Debug
+/x64/Release
+/viewer/viewer.vcxproj.user
+/Debug
+/tiny/Debug
+/tiny/x64
+/tiny_console/Debug
+/tiny_console/x64
+/windy/Debug
+/windy/x64
+/Release
+/tiny/Release
+/tiny_console/Release
+/python_tiny/__pycache__
+/windy/Release
+/.vs/tiny/v16/.suo
+/.vs/tiny/v16/Browse.VC.db
+/.vs/tiny/v16

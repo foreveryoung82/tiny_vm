@@ -1,0 +1,18 @@
+goal:
+	0.2 refine tiny vm and add features: built-in types and function
+		0.2.1 optimize vm performance -> completed
+		0.2.2 add feature: function
+	0.1 complete porting tiny vm from python to C++
+		0.1.1 parse tiny -> completed
+		0.1.2 generate ast by parsing tiny -> completed
+			+ optimize unnecessary virtual function (make inline if possible) 
+				-> completed
+			+ add viewer for ast in xml format -> completed
+				+ add tiny_xml_2 to tiny_console -> completed
+				+ add code checks memory leak for tiny_console -> completed
+				+ add enum to identify ast node kind -> completed
+		0.1.3 translate ast to vm code
+			+ add python implementation into solution
+			0.1.3.1 translate non-control-structure stmt -> completed
+			0.1.3.2 translate all stmt and exp -> completed
+		0.1.4 run code on vm  -> completed
